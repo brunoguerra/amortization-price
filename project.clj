@@ -5,7 +5,7 @@
                  [org.clojure/tools.nrepl "0.2.0-beta9"]]
   :ring {:handler amortization-price.core/app}
   :profiles {:dev
-             {:dependencies [[midje "1.4.0"] [ring-mock "0.1.2"] [org.clojure/tools.namespace "0.2.11"]]
+             {:dependencies [[midje "1.4.0"] [ring-mock "0.1.2"] [org.clojure/tools.namespace "0.2.11"] [org.clojure/math.numeric-tower "0.0.4"]]
               :plugins [[lein-midje "2.0.0-SNAPSHOT"]]}}
   :repositories {"stuart" "http://stuartsierra.com/maven2"}
   :min-lein-version "2.0.0"
