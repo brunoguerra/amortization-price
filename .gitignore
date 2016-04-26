@@ -1,0 +1,14 @@
+/pom.xml
+*jar
+/lib
+/classes
+/native
+/.lein-failures
+/checkouts
+/.lein-deps-sum
+target/
+.lein-failures
+.lein-repl-history
+.idea
+.lein-plugins
+.nrepl-port
