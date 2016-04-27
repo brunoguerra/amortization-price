@@ -2,7 +2,8 @@
   :dependencies [[org.clojure/clojure "1.4.0"]
                  [compojure "1.1.0"]
                  [com.stuartsierra/lazytest "1.2.3"]
-                 [org.clojure/tools.nrepl "0.2.0-beta9"]]
+                 [org.clojure/tools.nrepl "0.2.0-beta9"]
+                 [cheshire "5.5.0"]]
   :ring {:handler amortization-price.core/app}
   :profiles {:dev
              {:dependencies [[midje "1.4.0"] [ring-mock "0.1.2"] [org.clojure/tools.namespace "0.2.11"] [org.clojure/math.numeric-tower "0.0.4"]]

@@ -12,3 +12,4 @@ target/
 .idea
 .lein-plugins
 .nrepl-port
+docs/

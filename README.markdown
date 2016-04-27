@@ -32,7 +32,9 @@ Then start the web server:
 
 You should be ready to go.
 
+### Tests
 
+We're using two tests strategies for development with unit and acceptance tests found at test/amortization_price and test/amortization_price/test respectible
 `ENVIRONMENT=test lein midje`
 
 
