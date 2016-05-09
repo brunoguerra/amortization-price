@@ -21,9 +21,6 @@ We're using [leiningen](https://github.com/technomancy/leiningen/) for project m
 `lein deps`
 
 
-You will also need at least two databases `amortization-price` and `amortization-price-test`, corresponding respectively to a `development` and a `test` database. `production` will by default read it's configuration from the `DATABASE_URL` environment variable. The app ships with the **postgresql** driver but it should be easy to change it to any database supported by both `korma` and `lobos`.
-
-
 Then start the web server:
 
 
